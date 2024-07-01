@@ -2,7 +2,7 @@ import React from 'react'
 
 const Duras = () => {
   return (
-    <div className='dark:bg-negro grid grid-cols-1 lg:grid-cols-3 lg:flex-wrap lg:items-center lg:justify-center gap-5 '>
+    <div className='dark:bg-negro grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:flex-wrap lg:items-center lg:justify-center gap-5 '>
       
         <div className='flex items-center justify-center rounded dark:border-2 dark:border-blanco dark:bg-blanco dark:text-negro p-6 w-28 h-28'>
           <i className="text-5xl fa-brands fa-js"></i>

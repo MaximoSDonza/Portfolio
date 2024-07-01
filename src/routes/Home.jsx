@@ -12,8 +12,8 @@ const Home = () => {
           <p>Mi meta es ser desarrollador de software, o desarrollador full stack.</p>
           <div className='flex justify-between mt-10'>
             <a href="https://www.instagram.com/maximodonza/"><i className="flex items-center justify-center w-12 h-12 text-2xl rounded-full fa-brands fa-instagram dark:hover:bg-blanco dark:hover:text-negro hover:bg-blue-400 hover:text-blanco"></i></a>
-            <a href=""><i className="flex items-center justify-center w-12 h-12 text-2xl rounded-full fa-brands fa-linkedin dark:hover:bg-blanco dark:hover:text-negro hover:bg-blue-400 hover:text-blanco"></i></a>
-            <a href=""><i className="flex items-center justify-center w-12 h-12 text-2xl rounded-full fa-brands fa-github dark:hover:bg-blanco dark:hover:text-negro hover:bg-blue-400 hover:text-blanco"></i></a>
+            <a href="www.linkedin.com/in/máximo-sebastian-donza-875379301"><i className="flex items-center justify-center w-12 h-12 text-2xl rounded-full fa-brands fa-linkedin dark:hover:bg-blanco dark:hover:text-negro hover:bg-blue-400 hover:text-blanco"></i></a>
+            <a href="https://github.com/MaximoSDonza"><i className="flex items-center justify-center w-12 h-12 text-2xl rounded-full fa-brands fa-github dark:hover:bg-blanco dark:hover:text-negro hover:bg-blue-400 hover:text-blanco"></i></a>
           </div>
         </div>
 

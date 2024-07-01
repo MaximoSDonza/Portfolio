@@ -22,8 +22,7 @@ const About = () => {
           <p className='text-base'>Actualmente estoy cursando la educación secundaria.
             Apunto a un titulo universitario, me gusta el backend pero apunto al desarrollo full stack.
           </p>
-          <p className='text-base'>Estudio en una escuela tecnica orientada a la programacion y la informatica</p>
-          <p className='text-base'>Mi deporte favorito es el futbol y soy un apasionado de la musica y los videojuegos</p>
+          <p className='text-base'>Mi deporte favorito es el futbol y soy un apasionado de la musica y los videojuegos.</p>
         </div>
 
         <div className='dark:bg-negro flex flex-col mt-20 mb-20 h-1/2'>
