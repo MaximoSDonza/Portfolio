@@ -12,7 +12,7 @@ const About = () => {
   return (
     <>
       
-      <main className="dark:text-blanco dark:bg-negro flex gap-1 h-full flex-col p-5 text-blue-400 justify-evenly my-50xl lg:flex-wrap">
+      <main className="dark:text-blanco dark:bg-negro grid gap-1 h-full flex-col p-5 text-blue-400 justify-evenly my-50xl lg:flex-wrap">
 
         <div className='flex flex-col items-center'>
           <h2 className='mb-10 text-3xl'>Sobre Mi</h2>
