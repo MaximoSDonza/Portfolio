@@ -2,7 +2,7 @@ import React from 'react'
 
 const Blandas = () => {
   return (
-    <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:flex-wrap lg:items-center lg:justify-center gap-20'>
+    <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:flex-wrap lg:items-center lg:justify-center gap-20 mb-4'>
       
         <div className='flex text-xl lg:text-2xl items-center justify-center dark:text-blanco p-6 w-28 h-28'>
           Carisma
@@ -10,16 +10,6 @@ const Blandas = () => {
 
         <div className='flex text-xl lg:text-2xl items-center justify-center dark:text-blanco p-6 w-28 h-28'>
           Responsabilidad
-        </div>
-
-        <div className='flex text-xl lg:text-2xl items-center justify-center dark:text-blanco p-6 w-28 h-28'>
-          Positividad
-        </div>
-      
-
-      
-        <div className='flex text-xl lg:text-2xl items-center justify-center dark:text-blanco p-6 w-28 h-28'>
-          Empatia
         </div>
 
         <div className='flex text-xl lg:text-2xl items-center justify-center dark:text-blanco p-6 w-28 h-28'>
@@ -39,7 +29,6 @@ const Blandas = () => {
         </div>
       
 
-     
         <div className='flex text-xl lg:text-2xl items-center justify-center dark:text-blanco p-6 w-28 h-28'>
           Puntualidad
         </div>

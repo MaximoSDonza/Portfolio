@@ -14,17 +14,6 @@ const About = () => {
       
       <main className="dark:text-blanco dark:bg-negro grid gap-1 h-full flex-col p-5 text-blue-400 justify-evenly my-50xl lg:flex-wrap">
 
-        <div className='flex flex-col items-center'>
-          <h2 className='mb-10 text-3xl'>Sobre Mi</h2>
-          <h3 className='text-xl'>Máximo Donza</h3>
-          <p className='text-lg'>Programador trainee</p>
-          <p className='text-lg'>18 Años</p>
-          <p className='text-base'>Actualmente estoy cursando la educación secundaria.
-            Apunto a un titulo universitario, me gusta el backend pero apunto al desarrollo full stack.
-          </p>
-          <p className='text-base'>Mi deporte favorito es el futbol y soy un apasionado de la musica y los videojuegos.</p>
-        </div>
-
         <div className='dark:bg-negro flex flex-col mt-20 mb-20 h-1/2'>
           <h2 className='mb-20 text-3xl mx-auto'>Habilidades</h2>
           <div className="h-full dark:bg-negro flex flex-col lg:flex-row lg:justify-evenly lg:gap-5">
