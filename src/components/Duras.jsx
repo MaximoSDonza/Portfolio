@@ -1,43 +1,29 @@
-import React from 'react'
+import React from 'react';
+
+const skills = [
+  { icon: "fa-js", label: "JavaScript" },
+  { icon: "fa-git-alt", label: "Git" },
+  { icon: "fa-php", label: "PHP" },
+  { icon: "fa-react", label: "React" },
+  { icon: "fa-node", label: "Node.js" },
+  { icon: "fa-html5", label: "HTML5" },
+  { icon: "fa-css3", label: "CSS3" },
+];
 
 const Duras = () => {
   return (
-    <div className='dark:bg-negro grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:flex-wrap lg:items-center lg:justify-center gap-5 '>
-      
-        <div className='flex items-center justify-center rounded dark:border-2 dark:border-blanco dark:bg-blanco dark:text-negro p-6 w-28 h-28'>
-          <i className="text-5xl fa-brands fa-js"></i>
+    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5">
+      {skills.map((skill, index) => (
+        <div 
+          key={index} 
+          className="flex items-center justify-center rounded dark:border-2 dark:border-blanco dark:bg-blanco dark:text-negro p-6 w-28 h-28"
+          aria-label={skill.label}
+        >
+          <i className={`text-5xl fa-brands ${skill.icon}`}></i>
         </div>
-
-        <div className='flex items-center justify-center rounded dark:border-2 dark:border-blanco dark:bg-blanco dark:text-negro p-6 w-28 h-28'>
-          <i className="text-5xl fa-brands fa-git-alt"></i>
-        </div>
-
-        <div className='flex items-center justify-center rounded dark:border-2 dark:border-blanco dark:bg-blanco dark:text-negro p-6 w-28 h-28'>
-          <i className="text-5xl fa-brands fa-php"></i>
-        </div>
-      
-
-      
-        <div className='flex items-center justify-center rounded dark:border-2 dark:border-blanco dark:bg-blanco dark:text-negro p-6 w-28 h-28'>
-        <i className="text-5xl fa-brands fa-react"></i>
-        </div>
-
-        <div className='flex items-center justify-center rounded dark:border-2 dark:border-blanco dark:bg-blanco dark:text-negro p-6 w-28 h-28'>
-        <i className="text-5xl fa-brands fa-node"></i>
-        </div>
-
-        <div className='flex items-center justify-center rounded dark:border-2 dark:border-blanco dark:bg-blanco dark:text-negro p-6 w-28 h-28'>
-          <i className="text-5xl fa-brands fa-html5"></i>
-        </div>
-      
-
-      
-        <div className='flex items-center justify-center rounded dark:border-2 dark:border-blanco dark:bg-blanco dark:text-negro p-6 w-28 h-28'>
-          <i className="text-5xl fa-brands fa-css3"></i>
-        </div>
-      
+      ))}
     </div>
-  )
-}
+  );
+};
 
-export default Duras
+export default Duras;

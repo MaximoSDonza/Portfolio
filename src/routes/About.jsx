@@ -1,36 +1,17 @@
-import React, { useEffect, useState } from 'react'
-import Duras from '../components/Duras'
-import Blandas from '../components/Blandas'
+import React from 'react';
+import Duras from '../components/Duras';
+
 const About = () => {
-  const [habilidad,setHabilidades] = useState('duras');
-  
-  const handleChangeHability=(val)=>{
-    setHabilidades(val);
-  }
-
-
   return (
-    <>
+    <main className="dark:text-indigo-400 dark:bg-negro grid gap-10 p-5 text-blue-600 my-20">
       
-      <main className="dark:text-blanco dark:bg-negro grid gap-1 h-full flex-col p-5 text-blue-400 justify-evenly my-50xl lg:flex-wrap">
+      <div className="dark:bg-negro flex flex-col items-center mt-20 mb-20">
+        <h2 className="mb-10 text-3xl">Habilidades</h2>
+        <Duras />
+      </div>
 
-        <div className='dark:bg-negro flex flex-col mt-20 mb-20 h-1/2'>
-          <h2 className='mb-20 text-3xl mx-auto'>Habilidades</h2>
-          <div className="h-full dark:bg-negro flex flex-col lg:flex-row lg:justify-evenly lg:gap-5">
-            <div className="flex lg:flex-col justify-around pb-12 lg:pb-0 lg:pr-24 h-full border-solid border-blue-400 dark:border-blanco border-b-2 lg:border-b-0 lg:border-r-2">
-              <button className='text-2xl' onClick={()=>handleChangeHability('blandas')}>Blandas</button>
-              <button className='text-2xl' onClick={()=>handleChangeHability('duras')}>Duras</button>
-            </div>
-            <div className="flex dark:bg-negro justify-center flex-row flex-wrap shrink-0 gap-5 w-full lg:w-1/2 p-5">
-              { habilidad=='duras' ? <Duras/> : <Blandas/>}
-            </div>
-          </div>
-        </div>
+    </main>
+  );
+};
 
-      </main>
-
-    </>
-  )
-}
-
-export default About
+export default About;

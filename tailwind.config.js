@@ -7,7 +7,7 @@ export default {
 
       colors:{
         negro: '#1c1c22',
-        blanco: '#dfdfdf'
+        blanco: '#f5f5f4'
       }
 
     },
