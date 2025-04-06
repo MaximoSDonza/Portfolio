@@ -8,7 +8,7 @@ const Home = () => {
   ];
 
   return (
-    <main className="bg-blanco dark:text-white dark:bg-negro flex h-full flex-col-reverse lg:flex-row p-5 items-center text-blue-600 justify-evenly my-16 flex-wrap">
+    <main className="animate-fadeIn bg-blanco dark:text-white dark:bg-negro flex min-h-screen flex-col-reverse lg:flex-row p-5 items-center text-blue-600 justify-evenly py-16 flex-wrap">
       
       <section>
         <h2 className="dark:text-indigo-400 text-blue-700">Hola! Soy Máximo.</h2>
@@ -26,7 +26,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="w-80 h-80 rounded-full dark:border-indigo-400 border-blue-600 border-2 overflow-hidden">
+      <section className="w-72 h-72 rounded-full dark:border-indigo-400 border-blue-600 border-2 overflow-hidden">
         <img className="w-full h-full object-cover" src={me} alt="Foto de perfil" />
       </section>
 

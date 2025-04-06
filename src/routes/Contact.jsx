@@ -9,7 +9,7 @@ const Contact = () => {
   ];
 
   return (
-    <main className="dark:text-blanco dark:bg-negro grid grid-cols-1 content-center gap-16 p-5 text-blue-600 my-10">
+    <main className="animate-fadeIn dark:text-blanco dark:bg-negro grid grid-cols-1 content-center gap-16 p-5 text-blue-600 my-10">
       
       <div className="mt-10 text-center">
         <h2 className="text-3xl dark:text-indigo-400 mb-6">Información</h2>

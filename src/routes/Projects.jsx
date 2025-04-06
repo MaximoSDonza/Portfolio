@@ -25,7 +25,7 @@ const projects = [
 
 const Projects = () => {
     return (
-        <main className="dark:text-indigo-400 dark:bg-negro grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 p-5 lg:p-10 text-blue-600">
+        <main className="animate-fadeIn dark:text-indigo-400 dark:bg-negro grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 p-5 lg:p-10 text-blue-600">
             {projects.map((project, index) => (
                 <div key={index} className="mx-auto w-full max-w-sm sm:max-w-md lg:max-w-xl bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col h-full">
                     <a href={project.link} className="w-full">
