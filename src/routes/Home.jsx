@@ -5,6 +5,7 @@ const Home = () => {
   const socialLinks = [
     { href: "https://www.linkedin.com/in/m%C3%A1ximo-sebastian-donza-875379301/", icon: "fa-linkedin" },
     { href: "https://github.com/MaximoSDonza", icon: "fa-github" },
+    { href: "https://www.instagram.com/maximodonza", icon: "fa-instagram" },
   ];
 
   return (

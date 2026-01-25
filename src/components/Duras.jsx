@@ -1,13 +1,16 @@
 import React from 'react';
 
 const skills = [
-  { icon: "fa-js", label: "JavaScript", level: "Intermedio" },
+  { icon: "fa-js", label: "JavaScript", level: "Básico" },
   { icon: "fa-git-alt", label: "Git", level: "Básico" },
-  { icon: "fa-php", label: "PHP", level: "Intermedio" },
-  { icon: "fa-react", label: "React", level: "Intermedio" },
+  { icon: "fa-php", label: "PHP", level: "Básico" },
+  { icon: "fa-react", label: "React", level: "Básico" },
   { icon: "fa-node", label: "Node.js", level: "Básico" },
-  { icon: "fa-html5", label: "HTML5", level: "Intermedio" },
-  { icon: "fa-css3", label: "CSS3", level: "Intermedio" },
+  { icon: "fa-html5", label: "HTML", level: "Básico" },
+  { icon: "fa-css3", label: "CSS", level: "Básico" },
+  { icon: "fa-python", label: "Python", level: "Básico" },
+  { icon: "fa-java", label: "Java", level: "Básico" },
+  
 ];
 
 const Duras = () => {

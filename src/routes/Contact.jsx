@@ -1,12 +1,18 @@
 import React from 'react';
-import user from '../assets/img/user.png';
 
 const Contact = () => {
 
   const socialLinks = [
     { href: "https://www.linkedin.com/in/m%C3%A1ximo-sebastian-donza-875379301/", icon: "fa-linkedin" },
     { href: "https://github.com/MaximoSDonza", icon: "fa-github" },
+    { href: "https://www.instagram.com/maximodonza", icon: "fa-instagram" },
   ];
+
+  const contactos = [
+    {href: "https://pablogutierrez.infinityfreeapp.com/", img: "https://avatars.githubusercontent.com/u/159458290?v=4", alt: "Pablo Gutierrez" },
+    {href: "https://github.com/SantiagoHenze", img: "https://avatars.githubusercontent.com/u/129229364?v=4", alt: "Santiago Henze" },
+    {href: "https://www.linkedin.com/in/carlos-andr%C3%A9s-di-cicco-8046225/", img: "../assets/img/user.png", alt: "Carlos Di Cicco" },
+  ]
 
   return (
     <main className="animate-fadeIn dark:text-blanco dark:bg-negro grid grid-cols-1 content-center gap-16 p-5 text-blue-600 my-10">
@@ -39,15 +45,12 @@ const Contact = () => {
       <div>
         <h2 className="text-center dark:text-indigo-400 mb-10 text-3xl">Referencias</h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 justify-items-center gap-10">
-          <a href="https://github.com/pablitogutierrez" target="_blank" rel="noopener noreferrer">
-            <img className="rounded-full w-36 h-36 aspect-square" src="https://avatars.githubusercontent.com/u/159458290?v=4" alt="Pablo Gutierrez" />
-          </a>
-          <a href="https://github.com/SantiagoHenze" target="_blank" rel="noopener noreferrer">
-            <img className="rounded-full w-36 h-36 aspect-square" src="https://avatars.githubusercontent.com/u/129229364?v=4" alt="Santiago Henze" />
-          </a>
-          <a href="https://www.linkedin.com/in/carlos-andr%C3%A9s-di-cicco-8046225/" target="_blank" rel="noopener noreferrer">
-            <img className="rounded-full w-36 h-36 aspect-square" src={user} alt="Carlos Di Cicco" />
-          </a>
+          {contactos.map(({href, img, alt}) => (
+            <a className="text-center" href={href} target="_blank" rel="noopener noreferrer">
+              <img className="rounded-full w-36 h-36 aspect-square" src={img} alt={alt} />
+              <label >{alt}</label>
+            </a>
+          ))}
         </div>
       </div>
 
