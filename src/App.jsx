@@ -9,7 +9,7 @@ function App() {
   
 
   return (
-    <div className="h-screen">
+    <div className="min-h-screen bg-blanco dark:bg-negro">
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
